@@ -1,0 +1,22 @@
+{
+  "difficulty": "easy",
+  "steps": 500000,
+  "results": {
+    "PPO (backprop)": {
+      "win_rate": 0.59,
+      "avg_rally": 5.28
+    },
+    "Hebbian (engineered)": {
+      "win_rate": 0.44,
+      "avg_rally": 1.19
+    },
+    "BioAgent (PC+eng)": {
+      "win_rate": 0.57,
+      "avg_rally": 2.95
+    },
+    "BioAgent (PC only)": {
+      "win_rate": 0.2,
+      "avg_rally": 0.84
+    }
+  }
+}

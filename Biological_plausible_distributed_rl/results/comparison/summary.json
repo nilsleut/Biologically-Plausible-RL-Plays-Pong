@@ -1,0 +1,29 @@
+{
+  "difficulty": "hard",
+  "timesteps": 500000,
+  "ppo_eval": {
+    "win_rate": 0.01,
+    "loss_rate": 0.34,
+    "avg_rally": 7.22
+  },
+  "hebbian_results": {
+    "Hebbian\n(random feat)": {
+      "win_rate": 0.0,
+      "loss_rate": 0.99,
+      "avg_rally": 1.13
+    },
+    "Hebbian\n(engineered)": {
+      "win_rate": 0.16,
+      "loss_rate": 0.17,
+      "avg_rally": 7.98
+    },
+    "Hebbian\n(eng+random)": {
+      "win_rate": 0.0,
+      "loss_rate": 0.98,
+      "avg_rally": 1.34
+    }
+  },
+  "best_hebbian": "Hebbian\n(engineered)",
+  "ppo_params": 4868,
+  "hebbian_params": 1632
+}

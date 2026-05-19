@@ -18,6 +18,7 @@ This is not a research paper. The results are expected (backprop-free agents str
 
 <img width="1305" height="924" alt="image" src="https://github.com/user-attachments/assets/18d348c0-1a38-419c-a6ad-8f10bddea52e" />
 
+**Note on the learning curve figure:** The curve shows PPO and Hebbian agents training against an easy opponent (skill=0.4) over 500k steps. PPO heavily overfits to this fixed opponent (~90%+ by end of training). The win rates in the table below are from a separate evaluation run under the same conditions for all agents — these are the comparable numbers.
 
 ### PPO vs Hebbian vs BioAgent (easy opponent, 500k steps)
 

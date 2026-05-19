@@ -16,6 +16,9 @@ This is not a research paper. The results are expected (backprop-free agents str
 
 ## Results
 
+<img width="1305" height="924" alt="image" src="https://github.com/user-attachments/assets/18d348c0-1a38-419c-a6ad-8f10bddea52e" />
+
+
 ### PPO vs Hebbian vs BioAgent (easy opponent, 500k steps)
 
 | Agent | Backprop | Win Rate | What It Shows |
@@ -41,6 +44,12 @@ This is not a research paper. The results are expected (backprop-free agents str
 **Predictive Coding features add value but don't replace engineering.** The PC encoder learns to predict the next observation using local Hebbian updates, and these learned representations improve performance when combined with engineered features (57% vs 44% without PC). However, PC features alone (20%) are far below the engineered baseline — the encoder learns features useful for prediction, not necessarily for control.
 
 **Self-play creates automatic curriculum but exposes stability issues.** The self-play win rate converges to ~50% (balanced games), confirming that the opponent tracks the agent's skill. But absolute performance against fixed opponents is unstable — the agent discovers good strategies transiently but overwrites them as the opponent distribution shifts. This is the plasticity-stability dilemma, a fundamental challenge for biological and artificial learning systems alike.
+
+<img width="1305" height="924" alt="image" src="https://github.com/user-attachments/assets/c630368a-9e24-444e-82cc-fe3acfd4166b" />
+
+<img width="1485" height="735" alt="image" src="https://github.com/user-attachments/assets/ea7a9f94-4cea-42da-ab9c-74b8558a43a4" />
+
+<img width="1568" height="553" alt="image" src="https://github.com/user-attachments/assets/ce50530f-c847-4ac7-b8f6-2dea3fd13d16" />
 
 ## Architecture
 
